@@ -97,7 +97,6 @@ public class MovieServiceImpl implements MovieService {
             }
         }
         List<Movie> movies = getMovies(pageNo,pageSize,criteriaSearches,sortBy);
-
         return null;
     }
 
